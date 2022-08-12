@@ -1,0 +1,43 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("paisagem.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   }
+header {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+#logo-img {
+    width: 100px;
+    margin: 30px 0;
+}
+li {
+    font-family: monospace;
+    max-width: 90%;
+    margin: 0 auto;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+
+a{
+    color: rgb(21, 94, 99);
+}
